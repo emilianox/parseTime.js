@@ -14,7 +14,7 @@ h2 {
 p {
   margin-left: 30px;
   font-size: small;
-  font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace; 
+  font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
 }
 
 p span {
@@ -63,7 +63,7 @@ body {
   padding-bottom: 5px;
 }
 
-.enLang i, .deLang i, .frLang i, .ptLang i {
+.enLang i, .deLang i, .frLang i, .ptLang i, .esLang i{
   display: block;
   height: 19px;
   width: 30px;
@@ -83,6 +83,10 @@ body {
   background-position: 30px 0px;
 }
 
+.esLang i {
+  background-position: 60px 0px;
+}
+
 .ptLang i {
   background-position: 210px 0px;
 }
@@ -97,7 +101,7 @@ body {
     width: 83.5%;
     min-width: 600px;
   }
-  
+
   div#parsedContainer p {
     width: 47%;
     position: relative;
